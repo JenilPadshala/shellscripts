@@ -10,11 +10,7 @@ sudo vim /etc/nginx/sites-enabled/fastapi_nginx
 # Define the filename
 filename="fastapi_nginx"
 
-# Check if the file already exists
-if [ -e "$filename" ]; then
-    echo "Error: $filename already exists."
-    exit 1
-fi
+
 
 # Get the IP address from user input
 read -p "Enter the server IP address: " server_ip
@@ -39,6 +35,4 @@ git clone https://github.com/JenilPadshala/job-rec-sys.git
 
 cd job-rec-sys
 
-pip install -r requirements.txt
-
-python3 -m uvicorn app.main:app
+pip3 install -r requirements.txt
