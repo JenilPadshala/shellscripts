@@ -8,7 +8,7 @@ sudo vim /etc/nginx/sites-enabled/fastapi_nginx
 
 
 # Define the filename
-filename="fastapi_nginx"
+filename="/etc/nginx/sites-enabled/fastapi_nginx"
 
 
 
