@@ -4,7 +4,7 @@ sudo apt-get update
 
 sudo apt install -y python3-pip nginx
 
-sudo vim /etc/nginx/sites-enabled/fastapi_nginx
+#sudo vim /etc/nginx/sites-enabled/fastapi_nginx
 
 
 # Define the filename
